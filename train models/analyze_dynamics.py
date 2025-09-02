@@ -1,6 +1,6 @@
 # analyze_dynamics.py
 # -*- coding: utf-8 -*-
-"""
+r"""
 Анализ скрытой динамики по чекпоинтам эпох для RNN/Transformer.
 
 Что делает:

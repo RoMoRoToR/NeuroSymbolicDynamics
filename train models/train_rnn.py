@@ -186,7 +186,7 @@ def parse_args():
     p.add_argument("--train_frac", type=float, default=0.8)
     p.add_argument("--seed", type=int, default=42)
     p.add_argument("--cpu", action="store_true")
-    p.add_argument("--save_epochs", type=int, nargs="*", default=[1,5,10,25,50])
+    p.add_argument("--save_epochs", type=int, nargs="*", default=[1,5,10,25,50,100,150,200])
     p.add_argument("--state_batches", type=int, default=4, help="сколько первых вал-окон писать скрытых состояний")
     return p.parse_args()
 
