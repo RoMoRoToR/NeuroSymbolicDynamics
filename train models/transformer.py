@@ -99,7 +99,7 @@ model_lstm.fit(
 )
 
 # -----------------------
-# 6. Обучаем decoder-only Transformer
+# 6. Обучаем decoder-only Transformer_old
 # -----------------------
 # Маска «не видеть будущее»
 def look_ahead_mask(size):
@@ -205,7 +205,7 @@ for e, ep in zip(epochs, SAVE_EPOCHS):
 df = pd.DataFrame(metrics).set_index('epoch')
 
 # -----------------------
-# 8. GIF анимация PCA для Transformer
+# 8. GIF анимация PCA для Transformer_old
 # -----------------------
 # вместо [:, -1, :]
 snap_trf = [collector_trf.snapshots[ep] for ep in SAVE_EPOCHS]

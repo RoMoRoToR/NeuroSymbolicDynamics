@@ -216,7 +216,7 @@ def dump_token_states(model, dval, device, epoch, outdir, max_batches=2):
 def parse_args():
     p = argparse.ArgumentParser()
     p.add_argument("--data", type=str, default="lorenz.csv")
-    p.add_argument("--outdir", type=str, default="runs/lorenz/Transformer")
+    p.add_argument("--outdir", type=str, default="runs/lorenz/Transformer_old")
     p.add_argument("--seq_len", type=int, default=20)
     p.add_argument("--d_model", type=int, default=128)
     p.add_argument("--n_head", type=int, default=4)

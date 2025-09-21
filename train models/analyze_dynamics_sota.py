@@ -1,7 +1,7 @@
 # analyze_dynamics_sota.py
 # -*- coding: utf-8 -*-
 r"""
-Анализ скрытой динамики по чекпоинтам эпох для RNN/Transformer **с расширениями SOTA**.
+Анализ скрытой динамики по чекпоинтам эпох для RNN/Transformer_old **с расширениями SOTA**.
 
 Что теперь умеет (всё опционально, можно включать флагами):
 1) Символическая динамика (как раньше): k-means/ordinal → матрица переходов P →
@@ -19,7 +19,7 @@ r"""
 
 Пример запуска (Linux/PowerShell одинаково):
     python ./analyze_dynamics_sota.py \
-      --run_dirs "runs/lorenz/RNN_LSTM" "runs/lorenz/Transformer" \
+      --run_dirs "runs/lorenz/RNN_LSTM" "runs/lorenz/Transformer_old" \
       --outdir "results/lorenz" \
       --k 16 --make_gif --gif3d --do_cka --do_svcca --takens --mapper
 

@@ -1,7 +1,7 @@
 # analyze_dynamics.py
 # -*- coding: utf-8 -*-
 r"""
-Анализ скрытой динамики по чекпоинтам эпох для RNN/Transformer.
+Анализ скрытой динамики по чекпоинтам эпох для RNN/Transformer_old.
 
 Что делает:
 - Сканирует папки run_dir/*/states_epoch_XXX.npz (или run_dir/states_epoch_XXX.npz)
@@ -18,7 +18,7 @@ r"""
 
 Пример запуска (Windows PowerShell):
 python .\analyze_dynamics.py `
-  --run_dirs "runs\lorenz\RNN_LSTM" "runs\lorenz\Transformer" `
+  --run_dirs "runs\lorenz\RNN_LSTM" "runs\lorenz\Transformer_old" `
   --outdir "results\lorenz" `
   --k 16 `
   --make_gif

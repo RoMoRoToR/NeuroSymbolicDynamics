@@ -18,7 +18,7 @@ import plotly.graph_objects as go
 # ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ
 # -------------------------
 def _as_batch_first(x: torch.Tensor) -> torch.Tensor:
-    """Приводим к [B, T, D]. nn.Transformer обычно [T, B, D]."""
+    """Приводим к [B, T, D]. nn.Transformer_old обычно [T, B, D]."""
     if x.dim() != 3:
         raise ValueError("Ожидаем 3D тензор [T,B,D] или [B,T,D]")
     if x.shape[0] < x.shape[1]:  # эвристика: скорее всего [T,B,D]

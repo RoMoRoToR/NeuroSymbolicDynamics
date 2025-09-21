@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*-
 """
 Простая отрисовка аттрактора скрытых состояний по сохранённым states_epoch_*.npz.
-Заточено под ваши тренеры (Transformer/RNN), которые пишут H_seq в npz.
+Заточено под ваши тренеры (Transformer_old/RNN), которые пишут H_seq в npz.
 
 Зависимости: numpy, matplotlib, scikit-learn
 (без SciPy; апсемплинг — линейный).
 
 Примеры:
-  python plot_attractor.py --run_dir runs/lorenz/Transformer --prefer_dense
-  python plot_attractor.py --run_dir runs/lorenz/Transformer --epoch 50 --color cluster --k 12
-  python plot_attractor.py --run_dir runs/lorenz/Transformer --prefer_dense --plot3d --upsample 4
+  python plot_attractor.py --run_dir runs/lorenz/Transformer_old --prefer_dense
+  python plot_attractor.py --run_dir runs/lorenz/Transformer_old --epoch 50 --color cluster --k 12
+  python plot_attractor.py --run_dir runs/lorenz/Transformer_old --prefer_dense --plot3d --upsample 4
 """
 
 import os, re, glob, argparse
