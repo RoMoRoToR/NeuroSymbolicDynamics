@@ -1,0 +1,29 @@
+{
+  "title": "Symbolic Early Stopping in Neural Sequence Models via Mapper-Induced Symbolic Dynamics",
+  "description": "Canonical research repository for the Symbolic Early Stopping method, Mapper-induced symbolic dynamics, baseline stopping criteria, and reproducible sequence-model experiments.",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "symbolic early stopping",
+    "early stopping",
+    "symbolic dynamics",
+    "mapper",
+    "neural sequence models",
+    "reproducibility"
+  ],
+  "creators": [
+    {
+      "name": "Tomilov, Ivan"
+    },
+    {
+      "name": "Zamotaev, Rodion"
+    },
+    {
+      "name": "Gusarova, Natalia"
+    },
+    {
+      "name": "Vatian, Aleksandra"
+    }
+  ]
+}

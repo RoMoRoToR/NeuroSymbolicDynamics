@@ -1,0 +1,19 @@
+{
+  "data_root": "data",
+  "datasets": [
+    "AirPassengers"
+  ],
+  "out_root": "results/smoke_airpassengers",
+  "models": [
+    "rnn"
+  ],
+  "n_runs": 1,
+  "epochs": 4,
+  "seq_len": 12,
+  "pred_horizon": 1,
+  "batch_size": 16,
+  "hidden_dim": 16,
+  "device": "cpu",
+  "log_every": 1,
+  "save_epoch_metrics": true
+}

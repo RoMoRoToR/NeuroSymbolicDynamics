@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.matplotlib_cache/
+.venv/
+venv/
+results/*
+!results/README.md
+figures/*
+!figures/README.md
+tables/*
+!tables/README.md
+out_runtime_etth1/
+data/synthetic/*.csv
