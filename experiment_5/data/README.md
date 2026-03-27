@@ -34,7 +34,7 @@ Dataset names are resolved recursively by the CLI. For example, `--data_root dat
 - Intended use: multivariate time-series forecasting
 - Typical target column: `OT`
 - Source: ETT benchmark distributed with the Informer line of work
-- Public source: <https://github.com/zhouhaoyi/ETDataset>
+- Public source: <[https://github.com/zhouhaoyi/ETDataset](https://ieee-dataport.org/documents/merged-ett-dataset-time-series-forecasting)>
 - Preparation notes:
   - Keep the CSV header row.
   - Preserve original column names, especially `OT`.
