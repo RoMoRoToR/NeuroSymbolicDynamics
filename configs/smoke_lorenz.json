@@ -1,0 +1,19 @@
+{
+  "data_root": "data",
+  "datasets": [
+    "data/synthetic/lorenz_smoke.csv"
+  ],
+  "out_root": "results/smoke_lorenz",
+  "models": [
+    "rnn"
+  ],
+  "n_runs": 1,
+  "epochs": 4,
+  "seq_len": 24,
+  "pred_horizon": 1,
+  "batch_size": 32,
+  "hidden_dim": 16,
+  "device": "cpu",
+  "log_every": 1,
+  "save_epoch_metrics": true
+}

@@ -1,0 +1,38 @@
+{
+  "data_root": "data",
+  "datasets": [
+    "ETTh1",
+    "ETTh2",
+    "ETTm1",
+    "ETTm2",
+    "lorenz"
+  ],
+  "out_root": "results/article_main",
+  "models": [
+    "rnn",
+    "birnn",
+    "transformer"
+  ],
+  "n_runs": 10,
+  "epochs": 100,
+  "seq_len": 96,
+  "pred_horizon": 1,
+  "batch_size": 256,
+  "hidden_dim": 64,
+  "mapper_bins": 8,
+  "mapper_overlap": 0.3,
+  "mapper_local_k": 10,
+  "mapper_merge_eps": 0.5,
+  "noise_min": 0.0,
+  "noise_max": 0.5,
+  "noise_step": 0.1,
+  "device": "auto",
+  "ses_agg": "median",
+  "save_epoch_metrics": true,
+  "dataset_overrides": {
+    "lorenz": {
+      "seq_len": 24,
+      "batch_size": 32
+    }
+  }
+}
