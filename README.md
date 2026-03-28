@@ -96,6 +96,14 @@ Current repository snapshot:
 - included/generated in canonical layout: `lorenz`
 - expected but **not redistributed in this snapshot**: `AirPassengers`, `BTC_15m`, `train_with_header`
 
+Canonical acquisition/reference pages:
+
+- AirPassengers: <https://www.kaggle.com/datasets/rakannimer/air-passengers>
+- ETT: <https://ieee-dataport.org/documents/merged-ett-dataset-time-series-forecasting>
+- Bitcoin: <https://www.kaggle.com/datasets/novandraanugrah/bitcoin-historical-datasets-2018-2024>
+- EEG: <https://www.kaggle.com/datasets/amananandrai/complete-eeg-dataset>
+- Lorenz reference dataset page: <https://www.kaggle.com/datasets/henrychibueze/lorenz-attractor-dataset>
+
 The experiment code resolves dataset names recursively under `data/`. For example:
 
 - `ETTh1` -> `data/ETT/ETTh1.csv`
